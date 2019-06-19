@@ -74,6 +74,12 @@ public interface Services {
     @POST("Api/searchByName")
     Call<Restaurantdata> getSearchRestaurant (@Field("partName") String partName);
 
+
+
+
+
+
+
     @POST("Api/saveOrders")
     Call<UserModel> uploadOrder(@Body OrderToUploadModel orderToUploadModel);
 
