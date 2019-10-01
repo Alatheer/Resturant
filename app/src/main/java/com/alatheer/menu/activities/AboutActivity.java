@@ -104,6 +104,7 @@ public class AboutActivity extends AppCompatActivity {
                 tv_about.clearAnimation();
                 tv_about.startAnimation(animation);
 
+
                 animation.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
